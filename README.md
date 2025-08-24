@@ -1,6 +1,8 @@
 AI Punks: On-Chain AI NFT Agent with The Medalists
+
 Project Overview
 AI Punks is an innovative on-chain AI-powered NFT agent built on the Shape Mainnet (chain ID: 360), designed to revolutionize user interaction with blockchain-based digital art. The project introduces The Medalists, a unique NFT collection where each token serves as a key to unlock the AI Punks ecosystem. These Medalists are not just pixel art; they are functional tokens that enable collectors to interact with an AI agent to mint, explore, and navigate NFT collections in a dynamic, user-driven way.
+
 The mission of AI Punks is to demonstrate the potential of on-chain AI agents in the Web3 space. By integrating minting, collection, and holder analytics functionalities, the project showcases how collectors can engage with the blockchain playfully and creatively. This is just the beginning—AI Punks aims to push the boundaries of on-chain art by enabling user-driven creation and interaction, leveraging the Shape ecosystem’s creative potential.
 This project was developed for a hackathon, serving as a proof-of-concept for a new user experience that moves beyond static webpages to a collector-driven, interactive Web3 interface.
 Features
@@ -32,6 +34,8 @@ Clone the repository:
 git clone https://github.com/FILTER8/ai-punks.git
 cd ai-punks
 
+DemoVideo : 
+https://youtu.be/WbzUHjdf6Ok
 
 Install dependencies:
 npm install
@@ -75,7 +79,7 @@ AI Punks is just scratching the surface of what’s possible with on-chain AI ag
 User-Driven Art Creation:
 
 Enable users to influence pixel art creation through interactive inputs, with the final image assembled fully on-chain.
-Store art data on-chain, combining user inputs to generate unique AiPunks, showcasing the Shape ecosystem’s creative potential.
+Store art data on-chain, combining user inputs to generate unique Medalists, showcasing the Shape ecosystem’s creative potential.
 
 
 Enhanced AI Agent:
@@ -127,8 +131,9 @@ Fork the repository and submit pull requests.
 Report issues or suggest features via GitHub Issues.
 Join the conversation about on-chain AI and NFT innovation.
 
-
+License
+This project is licensed under the MIT License. See LICENSE for details.
 Contact
-For questions or collaboration, reach out via GitHub Issues or contact filter8 on twitter.
+For questions or collaboration, reach out via GitHub Issues or contact the team at [your-contact-info] (to be updated).
 
 Built with 💻 and 🏅 for the hackathon, August 2025. Let’s unlock the future of Web3 with AI Punks!
