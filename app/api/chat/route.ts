@@ -135,7 +135,8 @@ async function callMcpServer<T extends keyof ToolParams>(
 ): Promise<ToolResult[T]> {
   console.log(`Calling MCP server with tool: ${tool}, params:`, params);
   try {
-    const response = await fetch('http://localhost:3002/mcp', {
+    const mcpServerUrl = process.env.MCP_SERVER_URL || 'http://localhost:3002/mcp';
+    const response = await fetch(mcpServerUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
