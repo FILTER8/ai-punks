@@ -421,7 +421,7 @@ return (
       <ConversationContent className="p-4">
         {messages.length === 0 && (
           <p className="text-gray-500 text-sm text-center">
-            GM - Welcome to The Medalists NFTs try 'Mint me a medalist' to get the key to the AiPunks.
+           Gm 🚀 – Welcome to the future of NFTs! The Medalists 🏅 are live. Grab your Key 🔑 to unlock the next chapter Try: &quot;Mint me a medalist&quot;.
           </p>
         )}
         {error && <p className="text-red-500 text-sm text-center">Error: {error.message}</p>}
