@@ -10,9 +10,12 @@ Features
 Minting Medalists: Users can mint pixel art NFTs (The Medalists) directly on the Shape Mainnet for 0.003 ETH (0.0026 ETH mint price + 0.0004 ETH collector fee).
 Collection Analytics: View total NFTs minted, unique holders, and network details for The Medalists collection.
 Holder Insights: Check NFT ownership for a wallet address, including token IDs and images.
-Top Holders: Identify the top holders (e.g., top 1 or top 3) of The Medalists collection.
+Top Holders: Identify the top holder of The Medalists collection.
 Token Exploration: Retrieve details for specific token IDs or random Medalists, including traits and images.
-AI Agent Interaction: A chat-based interface powered by an AI agent allows users to query the collection (e.g., “Show me my collection,” “Mint me 1 medalist”) and navigate the Web3 space.
+AI Agent Interaction: A chat-based interface powered by an AI agent allows users to query the collection (e.g., “Show me my collection,” “Mint me 1 medalist”) and navigate the Collection space.
+
+Domain
+https://ai-punks.vercel.app/
 
 Tech Stack
 
@@ -24,9 +27,8 @@ APIs: Custom API routes (app/api/*) for NFT minting, collection stats, and holde
 Getting Started
 Prerequisites
 
-Node.js: Version 18 or higher.
 Wallet: A wallet (e.g., MetaMask) configured for Shape Mainnet (chain ID: 360, RPC URL: Shape Network docs).
-ETH: At least 0.003 ETH per mint for testing on Shape Mainnet.
+ETH: At least 0.003 ETH per mint for on Shape Mainnet.
 
 Installation
 
@@ -74,30 +76,23 @@ npx hardhat compile
 Current Status
 This project is a hackathon prototype, demonstrating the core functionality of an on-chain AI NFT agent. It includes basic minting, collection analytics, and holder queries. Some known issues (e.g., errors in app/page.tsx, mcp-server/ files) are being addressed in ongoing development. The project successfully showcases a new user experience where collectors interact with the blockchain in a playful, AI-driven way.
 Next Steps
-AI Punks is just scratching the surface of what’s possible with on-chain AI agents. Future iterations will expand the project’s capabilities:
+THe Medalists are just scratching the surface of what’s possible with on-chain AI agents. Future iterations will expand the project’s capabilities:
 
 User-Driven Art Creation:
 
 Enable users to influence pixel art creation through interactive inputs, with the final image assembled fully on-chain.
-Store art data on-chain, combining user inputs to generate unique Medalists, showcasing the Shape ecosystem’s creative potential.
+Store art data on-chain, combining user inputs to generate unique Ai.Punks, showcasing the Shape ecosystem’s creative potential.
 
 
 Enhanced AI Agent:
 
-Expand the AI’s capabilities to navigate the broader Web3 space, such as querying other NFT collections or blockchain data.
+Expand the AI’s capabilities to navigate the broader Collections and Trait minting on the Ai-Punks
 Integrate advanced AI models for dynamic responses and personalized collector experiences.
 
 
 Improved User Experience:
 
 Refine the chat interface with more intuitive commands and visual feedback.
-Add support for multi-chain interactions beyond Shape Mainnet.
-
-
-Scalability and Optimization:
-
-Optimize mcp-server/ APIs for performance and reliability.
-Address current errors (e.g., in app/page.tsx:152, mcp-server/get-collection-nft-count.ts:82) to ensure a robust deployment.
 
 
 Community Engagement:
@@ -116,11 +111,6 @@ npm install -g vercel
 
 Deploy:
 vercel
-
-
-Add environment variables in Vercel:
-vercel env add NEXT_PUBLIC_CONTRACT_ADDRESS
-vercel env add NEXT_PUBLIC_API_URL
 
 
 

@@ -403,10 +403,10 @@ export async function POST(req: NextRequest) {
         message: `🏅 Yo, welcome to **The Medalists**! This on-chain NFT collection is all about celebrating digital creativity.  
 What’s up? Try:  
 - 📊 "Collection stats" for total NFTs and holders  
-- 🔍 "Show me token id 3" or "Show me a random medalist" for NFT details  
-- 🏆 "Who is the top holder" or "Show me top three holders" for top collectors  
-- 💼 "Show me my collection for 0xYourWalletAddress" for your NFTs  
-- 🎨 "Mint me a Medalist" to grab your own  
+- 🔍 "Show me token id " or "Show me a random medalist" for NFT details  
+- 🏆 "Who is the top holder" for top collector  
+- 💼 "Show me my collection" for your NFTs  
+- 🎨 "Mint me a Medalist" to grab your own and get the 🔑 
 - 📈 "Mint status" for minting details`,
       };
     }

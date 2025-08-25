@@ -421,7 +421,7 @@ return (
       <ConversationContent className="p-4">
         {messages.length === 0 && (
           <p className="text-gray-500 text-sm text-center">
-            Ask about The Medalists NFT Collection! Try: &quot;Collection stats&quot;, &quot;Show me my collection&quot; (auto-uses connected wallet), &quot;Show me my collection for 0xYourWalletAddress&quot;, &quot;Mint me a medalist&quot;, &quot;Show me token id 3&quot;, &quot;Show me a random medalist&quot;, or &quot;Who is the top holder&quot;.
+            GM - Welcome to The Medalists NFTs try 'Mint me a medalist' to get the key to the AiPunks.
           </p>
         )}
         {error && <p className="text-red-500 text-sm text-center">Error: {error.message}</p>}
@@ -700,7 +700,7 @@ if ('error' in data && data.error) {
         <PromptInputTextarea
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask about The Medalists NFTs (e.g., 'Show me my collection', 'Mint me a medalist', 'Show me token id 3', 'Show me a random medalist', or 'Who is the top holder')"
+          placeholder="Ask about The Medalists NFTs (e.g., 'Show me my collection', 'Mint me a medalist', 'Show me token id ', 'Show me a random medalist', or 'Who is the top holder')"
           className="border border-gray-300 rounded-lg p-3 w-full resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <PromptInputToolbar>
